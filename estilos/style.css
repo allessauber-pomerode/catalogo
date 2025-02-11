@@ -17,17 +17,18 @@
 
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
-    width: 100vw;
+   
 }
 
 body{
     background-color: var(--corclara);
+    height: 100vh;
+    width: 100vw;
 }
 
 header{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-evenly;
     height: 150px;
     background-color: var(--cormedia);
@@ -35,19 +36,20 @@ header{
 }
 
 header > div#Ilogo{
-    flex: 0 0 150px;
+    flex: 1 0 auto;
     background: url(../imagens/logo-200.png) center center no-repeat;
     background-size: contain;
     /*border: 1px dotted black;*/
 }
 
 header > h1{
-    flex: 0 1 220px;
+    flex: 0 1 auto;
     align-self: center;
     color: var(--corbranco);
-    font-size: 1.3em;
+    font-size: 1em;
     font-variant: small-caps;
     text-shadow: 0px 0px 2px var(--corescura);
+    padding: 0px 0px 10px 0px;
     /*border: 1px dotted black;*/
 }
 
@@ -61,9 +63,15 @@ header > nav{
 
 header > nav > a{
     color: var(--corbranco);
-
+    font-weight: bold;
     text-decoration: none;
     padding: 5px 10px;
+}
+
+header > nav > a:hover{
+    background-color: var(--corbranco);
+    color: var(--cordestaque);
+    border-radius: 10px 10px 0px 0px;
 }
 
 main{
@@ -73,5 +81,18 @@ main{
 
 footer{
     background-color: var(--corescura);
-    padding: 5px;
+    color: var(--corbranco);
+    padding: 10px;
+}
+
+footer > address{
+    font-style: normal;
+    line-height: 0.9em;
+    padding-bottom: 15px;
+}
+
+footer > a{
+    text-decoration: none;
+    color: var(--corbranco);
+    font-weight: bold;
 }
