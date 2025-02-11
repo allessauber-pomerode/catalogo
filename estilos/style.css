@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+:root{
+    --cordestaque: #D1323E;
+    --corbranco: #F9FEFB;
+    --corclara: #78BC61;
+    --cormedia: #17AF2F;
+    --corescura: #14281D;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-color: var(--corclara);
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 150px;
+    background-color: var(--cormedia);
+    padding-top: 10px;
+}
+
+header > div#Ilogo{
+    flex: 0 0 150px;
+    background: url(../imagens/logo-200.png) center center no-repeat;
+    background-size: contain;
+    /*border: 1px dotted black;*/
+}
+
+header > h1{
+    flex: 0 1 220px;
+    align-self: center;
+    color: var(--corbranco);
+    font-size: 1.3em;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 2px var(--corescura);
+    /*border: 1px dotted black;*/
+}
+
+header > nav{
+    display: flex;
+    align-self: flex-end;
+    background-color: var(--cordestaque);
+    width: 100vw;
+   /*border: 1px dotted black;*/
+}
+
+header > nav > a{
+    color: var(--corbranco);
+
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+main{
+    background-color: var(--corbranco);
+    padding: 15px;
+}
+
+footer{
+    background-color: var(--corescura);
+    padding: 5px;
+}
