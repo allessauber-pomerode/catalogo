@@ -79,6 +79,27 @@ main{
     padding: 15px;
 }
 
+main > section > h2{
+    color: var(--cordestaque);
+}
+
+main > section > p{
+    color: var(--corescura);
+    line-height: 1.5em;
+}
+
+main > aside {
+    background-color: var(--corclara);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px
+}
+
+main > aside > h3{
+    background-color: var(--cormedia);
+}
+
+
 footer{
     background-color: var(--corescura);
     color: var(--corbranco);
