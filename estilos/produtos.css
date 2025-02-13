@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root{
+    --cordestaque: #D1323E;
+    --corbranco: #F9FEFB;
+    --corclara: #78BC61;
+    --cormedia: #17AF2F;
+    --corescura: #14281D;
+}
+
+main > nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+main > nav > a{
+    flex: 0 1 150px;
+    color: var(--corescura);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main > nav > a:hover{
+    color: var(--cordestaque);
+}
+
+main > nav > a > img{
+    height: 150px;
+    border: 1px dotted black;
+}
+

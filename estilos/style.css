@@ -17,7 +17,7 @@
 
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+   color: var(--corescura);
 }
 
 body{
@@ -97,6 +97,10 @@ main > aside {
 
 main > aside > h3{
     background-color: var(--cormedia);
+    border-radius: 10px 10px 0px 0px;
+    color: var(--corbranco);
+    margin: -10px -10px 5px -10px;
+    padding: 5px;
 }
 
 
