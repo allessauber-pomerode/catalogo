@@ -61,6 +61,10 @@ section.marcas > nav > a:hover{
     color:var(--cordestaque);
 }
 
+section.marcas > nav > a.esgotado::after{
+    content: " (esgotado)";
+}
+
 section.marcas > nav > a > img{
     height: 150px;
 }
