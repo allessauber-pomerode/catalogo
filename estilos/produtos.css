@@ -18,8 +18,9 @@ main > nav > a{
     flex: 0 1 150px;
     color: var(--corescura);
     font-weight: bold;
+    text-align: center;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
 }
 
 main > nav > a:hover{
@@ -28,6 +29,37 @@ main > nav > a:hover{
 
 main > nav > a > img{
     height: 150px;
-    border: 1px dotted black;
+}
+
+/*Estilos produtos grupos*/
+
+h2.divisoria{
+    background-color: var(--corclara);
+    border-radius: 0px 5px 5px 0px;
+    color: var(--corescura);
+    padding: 5px;
+}
+
+section#guimaraes > nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section#guimaraes > nav > a{
+    flex: 0 1 150px;
+    color: var(--corescura);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+section#guimaraes > nav > a:hover{
+    color:var(--cordestaque);
+}
+
+section#guimaraes > nav > a > img{
+    height: 150px;
 }
 
