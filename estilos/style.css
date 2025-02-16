@@ -39,7 +39,7 @@ header > div#Ilogo{
     flex: 1 1 auto;
     background: url(../imagens/logo-200.png) center center no-repeat;
     background-size: contain;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 }
 
 header > h1{

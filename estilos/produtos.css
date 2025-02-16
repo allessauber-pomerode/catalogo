@@ -72,7 +72,10 @@ section.marcas > nav > a > img{
 /* Estilo Individual*/
 
 section.showproduct{
+    display: flex;
+    flex-flow: column nowrap;
     padding: 10px;
+
 }
 
 section.showproduct > h3.nome {
@@ -84,9 +87,6 @@ section.showproduct > p{
     text-align: center;
 }
 
-section.showproduct > img{
-    margin: auto;
-}
 
 table.descricao tr{
     display: flex;
