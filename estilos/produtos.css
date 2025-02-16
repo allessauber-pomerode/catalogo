@@ -87,6 +87,22 @@ section.showproduct > p{
     text-align: center;
 }
 
+section.showproduct > div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+}
+
+section.showproduct > div > input#Ibotao{
+    flex: 0 1 100px;
+    background-color: var(--corescura);
+    border-radius: 5px;
+    color: var(--corbranco);
+    border: none;
+    font-weight: bold;
+    height: 35px;
+}
 
 table.descricao tr{
     display: flex;
