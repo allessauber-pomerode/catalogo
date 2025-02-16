@@ -84,13 +84,18 @@ section.showproduct > p{
     text-align: center;
 }
 
+section.showproduct > img{
+    margin: auto;
+}
+
 table.descricao tr{
     display: flex;
     flex-flow: row nowrap;
+    margin: auto;
 }
 
 table.descricao th{
-    flex: 1 1 50px;
+    flex: 1 0 110px;
     background-color: var(--corclara);
     border: 1px solid var(--corescura);
     border-collapse: collapse;
