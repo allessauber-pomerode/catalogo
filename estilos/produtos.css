@@ -31,7 +31,7 @@ main > nav > a > img{
     height: 150px;
 }
 
-/*Estilos produtos grupos*/
+/*Estilos Grupos*/
 
 h2.divisoria{
     background-color: var(--corclara);
@@ -69,3 +69,38 @@ section.marcas > nav > a > img{
     height: 150px;
 }
 
+/* Estilo Individual*/
+
+section.showproduct{
+    padding: 10px;
+}
+
+section.showproduct > h3.nome {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section.showproduct > p{
+    text-align: center;
+}
+
+table.descricao tr{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+table.descricao th{
+    flex: 1 1 50px;
+    background-color: var(--corclara);
+    border: 1px solid var(--corescura);
+    border-collapse: collapse;
+    vertical-align: middle;
+    padding: 7px;
+}
+
+table.descricao td{
+    flex: 2 1 450px;
+    border: 1px solid var(--corescura);
+    border-collapse: collapse;
+    padding: 7px;
+}
