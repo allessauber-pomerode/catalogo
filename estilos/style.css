@@ -24,6 +24,7 @@ body{
     background-color: var(--corclara);
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 header{
@@ -43,7 +44,7 @@ header > div#Ilogo{
     /*border: 1px dotted black;*/
 }
 
-header > div#Ilogo > a > span{
+header > div#Ilogo > a > span, article > div#Ivoltar > a > span{
     position:absolute; 
     width:100%;
     height:100%;
@@ -86,11 +87,13 @@ header > nav > a:hover{
 }
 
 article > div#Ivoltar{
-    background: var(--cordestaque) url(../imagens/placeholdericon-full.png) center center no-repeat;
+    background: var(--cordestaque);
     background-size: cover;
     border-radius: 100%;
+    box-shadow: 1px 1px 3px var(--corescura);
     height: 40px;
     width: 40px;
+    position: fixed;
 }
 
 main{
