@@ -8,13 +8,13 @@
     --corescura: #14281D;
 }
 
-main > nav{
+main > section > nav{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-main > nav > a{
+main > section > nav > a{
     flex: 0 1 150px;
     color: var(--corescura);
     font-weight: bold;
@@ -23,11 +23,11 @@ main > nav > a{
     padding: 20px;
 }
 
-main > nav > a:hover{
+main > section > nav > a:hover{
     color: var(--cordestaque);
 }
 
-main > nav > a > img{
+main > section > nav > a > img{
     height: 150px;
 }
 
