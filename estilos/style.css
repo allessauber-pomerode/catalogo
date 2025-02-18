@@ -29,22 +29,20 @@ body{
 
 header{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    height: 150px;
+    flex-flow: column nowrap;
+    height: 170px;
     background-color: var(--cormedia);
     padding-top: 10px;
 }
 
 header > div#Ilogo{
-    flex: 1 1 auto;
+    flex: 1 1 200px;
     background: url(../imagens/logo-200.png) center center no-repeat;
     background-size: contain;
     position: relative;
-    /*border: 1px dotted black;*/
 }
 
-header > div#Ilogo > a > span, article > div#Ivoltar > a > span{
+header > div#Ilogo > a > span, article > div#Ivoltar > a >{
     position:absolute; 
     width:100%;
     height:100%;
@@ -61,21 +59,21 @@ header > h1{
     font-size: 1em;
     font-variant: small-caps;
     text-shadow: 0px 0px 2px var(--corescura);
-    padding: 0px 0px 10px 0px;
-    /*border: 1px dotted black;*/
+    margin-bottom: 15px;
+
 }
 
 header > nav{
     display: flex;
-    align-self: flex-end;
-    background-color: var(--cordestaque);
-    width: 100vw;
-   /*border: 1px dotted black;*/
+    align-self: center;
 }
 
 header > nav > a{
+    background-color: var(--cordestaque);
+    border-radius: 5px 5px 0px 0px;
     color: var(--corbranco);
     font-weight: bold;
+    margin: 0px 5px;
     text-decoration: none;
     padding: 5px 10px;
 }
@@ -98,6 +96,7 @@ article > div#Ivoltar{
 
 main{
     background-color: var(--corbranco);
+    box-shadow: 1px 1px 3px var(--corescura);
     padding: 15px;
 }
 
