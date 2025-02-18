@@ -84,10 +84,11 @@ header > nav > a:hover{
 }
 
 article > div#Ivoltar{
-    background: var(--cordestaque);
-    background-size: cover;
+    background: var(--cordestaque) url(../imagens/voltar.png) center center no-repeat;
+    background-size: contain;
     border-radius: 100%;
     box-shadow: 1px 1px 3px var(--corescura);
+    margin: -40px 0px 0px 0px;
     height: 40px;
     width: 40px;
     position: fixed;
