@@ -99,6 +99,20 @@ main{
     padding: 15px;
 }
 
+main > section > h4{
+    margin-top: 15px;
+}
+
+main > section > ul.marcas{
+    margin-bottom: 15px;
+    columns: 2;
+}
+
+main > section > ul.marcas > li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
 main > section > h2{
     color: var(--cordestaque);
 }
@@ -111,8 +125,10 @@ main > section > p{
 main > aside {
     background-color: var(--corclara);
     border-radius: 10px;
+    margin: auto;
     margin-top: 15px;
-    padding: 10px
+    padding: 10px;
+    width: 300px;
 }
 
 main > aside > h3{
@@ -120,6 +136,7 @@ main > aside > h3{
     border-radius: 10px 10px 0px 0px;
     color: var(--corbranco);
     margin: -10px -10px 5px -10px;
+    text-align: center;
     padding: 5px;
 }
 
@@ -136,8 +153,15 @@ footer > address{
     padding-bottom: 15px;
 }
 
-footer > a{
+footer > nav.sociais{
+    border-top: 1px dotted var(--corbranco);
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer > nav.sociais > a{
     text-decoration: none;
     color: var(--corbranco);
     font-weight: bold;
+    padding: 0px 10px;
 }
