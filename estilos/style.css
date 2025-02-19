@@ -94,6 +94,10 @@ article > div#Ivoltar{
     position: fixed;
 }
 
+article#Idescricao > div#Ivoltar{
+    margin: 0px;
+}
+
 main{
     background-color: var(--corbranco);
     box-shadow: 1px 1px 3px var(--corescura);
