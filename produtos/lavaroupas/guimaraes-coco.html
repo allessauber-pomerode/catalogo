@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../estilos/style.css">
+    <link rel="stylesheet" href="../../estilos/produtos.css">
+    <title>Lava Roupas Guimarães Coco</title>
+</head>
+<body>
+    <header>
+        <div id="Ilogo">
+            <a href="../index.html"><span></span></a>
+        </div>
+        <h1> Materiais e Produtos de Limpeza!</h1>
+        <nav>
+            <a href="../produtos.html">Produtos</a>
+            <a href="../equipamentos.html">Equipamentos</a>
+            <a href="../variados.html">Variados</a>
+        </nav>
+    </header>
+    <main>
+        <article id="Idescricao">
+            <div id="Ivoltar"><a href="../lavaroupas.html"></a></div>
+        </article>
+        <section class="showproduct">
+            <h3 class="nome">Lava Roupas Coco e Amêndoas</h3>
+            <p>Guimarães</p>
+            <img src="../../imagens/imagens-produtos/lavaroupas/lavaroupas-guimaraes-2l-coco.png" alt="Lava Roupas Coco" id="Iimagem">
+            <div>
+                <input id="Ibotao" type="button" value="2 litros" onclick="changeImage1()">
+                <input id="Ibotao" type="button" value="5 litros" onclick="changeImage2()">
+            </div>
+        </section>
+        <table class="descricao">
+            <tr>
+                <th>Tamanho</th>
+                <td>2 litros / 5 litros</td>
+            </tr>
+            <tr>
+                <th>Utilidade</th>
+                <td>"Tem um alto poder de remoção da sujeira em suas roupas."</td>
+            </tr>
+        </table>
+    </section>
+    <aside class="orcamento">
+        <p>solicite um orçamento sem compromisso!</p>
+    </aside>
+    </main>
+    <footer id="Icontato">
+        <address>
+            <p>Pomerode - SC</p>
+            <p>Rua 15 de Novembro, 1473 - sala 1 e sala 2</p>
+        </address>
+        <a href="https://www.instagram.com">Instagram</a> <br> 
+        <a href="https://www.facebook.com">Facebook</a> <br>
+        <a href="#">Whatsapp</a>
+    </footer>
+    <script>
+        function changeImage1() {
+            document.getElementById('Iimagem').src = '../../imagens/imagens-produtos/lavaroupas/lavaroupas-guimaraes-2l-coco.png'
+        }
+        function changeImage2() {
+            document.getElementById('Iimagem').src = '../../imagens/imagens-produtos/lavaroupas/lavaroupas-guimaraes-5l-coco.png'
+        }
+    </script>
+</body>
+</html>
