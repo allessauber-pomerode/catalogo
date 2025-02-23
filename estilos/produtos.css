@@ -89,7 +89,7 @@ section.showproduct > p{
     text-align: center;
 }
 
-section.showproduct > div{
+section.showproduct > div, div.botao{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -97,7 +97,7 @@ section.showproduct > div{
 }
 
 section.showproduct > div > input#Ibotao{
-    flex: 0 1 100px;
+    flex: 0 1 150px;
     background-color: var(--corescura);
     border-radius: 5px;
     color: var(--corbranco);

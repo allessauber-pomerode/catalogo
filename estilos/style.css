@@ -146,6 +146,34 @@ main > aside > h3{
     padding: 5px;
 }
 
+aside#noback{
+    background-color: transparent;
+    padding: 0px;
+}
+
+div.botao{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+}
+
+
+div.botao > a{
+    flex: 2 1 auto;
+    align-items: center;
+    background-color: var(--corescura);
+    border-radius: 5px;
+    color: var(--corbranco);
+    font-weight: bold;
+    margin: 20px auto -30px auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+div.botao > a.numeros{
+    flex: auto;
+}
 
 footer{
     display: flex;
