@@ -149,12 +149,13 @@ main > aside > h3{
 aside#noback{
     background-color: transparent;
     padding: 0px;
+    width: 80vw;
 }
 
 div.botao{
     display: flex;
     align-items: center;
-    width: 70vw;
+    width: 80vw;
 }
 
 
@@ -173,6 +174,10 @@ div.botao > a{
 
 div.botao > a.numeros{
     flex: auto;
+}
+
+a#voce{
+    background-color: var(--cormedia);
 }
 
 footer{
