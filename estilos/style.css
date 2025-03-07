@@ -154,22 +154,21 @@ aside#noback{
 
 div.botao{
     display: flex;
-    align-items: center;
+    flex-flow: row nowrap;
     width: 80vw;
 }
 
 
 div.botao > a{
-    flex: 2 1 auto;
-    align-items: center;
+    flex: auto;
     background-color: var(--corescura);
     border-radius: 5px;
     color: var(--corbranco);
     font-weight: bold;
-    margin: 20px auto -30px auto;
+    margin: 20px 2px -30px 2px;
     text-align: center;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
 }
 
 div.botao > a.numeros{
