@@ -105,6 +105,14 @@ main{
     padding: 15px;
 }
 
+main > section.none{
+    display: none;
+}
+
+main > section a.none{
+    display: none;
+}
+
 main > section > h4{
     margin-top: 15px;
 }
