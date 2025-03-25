@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+:root{
+    --cordestaque: #D1323E;
+    --corbranco: #F9FEFB;
+    --corclara: #78BC61;
+    --cormedia: #17AF2F;
+    --corescura: #14281D;
+}
+
+@media screen and (min-width: 768px){
+    header{
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+
+    header > div#Ilogo{
+       flex: 0 1 auto;
+       width: 150px;
+    }
+
+    header > h1{
+       margin: 0px;
+    }
+
+    header > nav > a:hover{
+        border-radius: 5px;
+    }
+
+    header > nav > a{
+        border-radius: 5px;
+    }
+
+    main{
+        columns: 2;
+    }
+
+    h2.divisoria > h2.first{
+        margin-top: 0px;
+    }
+
+    h2.divisoria{
+        width: 90%;
+    }
+
+    section > nav#Ishow > a{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    div.botao{
+        width: 30vw;
+        
+       border: 1px solid black;
+    }
+}
