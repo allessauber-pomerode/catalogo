@@ -65,7 +65,7 @@
         flex-flow: column wrap;
     }
 
-    nav#Ishow > a{
+    nav#Ishow > a, section.marcas > nav > a{
         font-weight: 500;
     }
 
