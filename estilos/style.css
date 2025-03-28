@@ -58,9 +58,8 @@ header > h1{
     color: var(--corbranco);
     font-size: 1em;
     font-variant: small-caps;
-    text-shadow: 0px 0px 2px var(--corescura);
-    margin-bottom: 20px;
-
+    text-shadow: 0px 0px 1px var(--corescura);
+    margin-bottom: 10px;
 }
 
 header > nav{

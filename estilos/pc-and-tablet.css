@@ -9,40 +9,55 @@
 }
 
 @media screen and (min-width: 768px){
+    body{
+        background-color: var(--corclara);
+        width:auto;
+    }
+
     header{
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: space-evenly;
         height: 100px;
-        margin-bottom: 0px;
+        box-shadow: 0px -2px 3px var(--corescura);
+    }
+
+
+    header > h1{
+        float: right;
+        line-height: 15px;
+        text-align: center;
+        margin: 0px;
+        width: 160px;
+        font-size: 15px;
+        order: 3;
     }
 
     header > div#Ilogo{
        flex: 0 1 auto;
-       width: 150px;
-    }
-
-    header > h1{
-       margin: 0px;
-    }
-
-    header > nav > a:hover{
-        border-radius: 5px;
+       width: 160px;
+       order: -1;
     }
 
     header > nav > a{
-        border-radius: 5px;
+        border-radius: 2px;
+        order: 2;
+    }
+
+    header > nav > a:hover{
+        border-radius: 2px;
     }
 
     main{
-        columns: 2;
-    }
-
-    h2.divisoria > h2.first{
-        margin-top: 0px;
+        margin: auto;
+        box-shadow: none;
+        width: 800px;
     }
 
     h2.divisoria{
-        width: 90%;
+        border-radius: 0px 5px;
+        margin: auto auto 15px auto;
+        text-align: center;
+        width: 85%;
     }
 
     section > nav#Ishow > a{
@@ -50,9 +65,28 @@
         flex-flow: column wrap;
     }
 
+    nav#Ishow > a{
+        font-weight: 500;
+    }
+
+    aside#noback{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        width: 700px;
+    }
+
     div.botao{
         width: 30vw;
-        
-       border: 1px solid black;
+    }
+    
+    footer > address{
+        margin: auto;
+        text-align: center;
+    }
+
+    footer > nav.sociais{
+        margin: auto;
+        width: 700px;
     }
 }
