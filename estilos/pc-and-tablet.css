@@ -69,6 +69,25 @@
         font-weight: 500;
     }
 
+    section.showproduct{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    section.showproduct > div.nowrap{
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        width: 45%;
+    }
+
+    table.descricao{
+        align-self: center;
+        width: 45%;
+    }
+
+
     aside#noback{
         display: flex;
         flex-flow: row nowrap;
