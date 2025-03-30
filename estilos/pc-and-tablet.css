@@ -72,19 +72,30 @@
     section.showproduct{
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        border: 1px solid black;
     }
 
     section.showproduct > div.nowrap{
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column nowrap; 
         text-align: center;
         width: 45%;
+        border: 1px solid black;
+    }
+
+    section.showproduct > div.column > div.change{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 45%;
+        border: 1px solid black;
     }
 
     table.descricao{
         align-self: center;
         width: 45%;
+        border: 1px solid black;
     }
 
 

@@ -80,23 +80,23 @@ section.showproduct{
 
 }
 
-section.showproduct > h3.nome {
+section.showproduct h3.nome {
     font-size: 1.5em;
     text-align: center;
 }
 
-section.showproduct > p{
+section.showproduct p{
     text-align: center;
 }
 
-section.showproduct > div, div.botao{
+section.showproduct > div.column > div.change, div.botao{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     margin: 0px 0px 50px 0px;
 }
 
-section.showproduct > div > input#Ibotao{
+section.showproduct > div.column > div.change > input#Ibotao{
     flex: 0 1 150px;
     background-color: var(--corescura);
     border-radius: 5px;
