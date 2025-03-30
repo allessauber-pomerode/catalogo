@@ -6,8 +6,8 @@
     --corclara: #78BC61;
     --cormedia: #17AF2F;
     --corescura: #14281D;
+    --borda: 1px dotted black;
 }
-
 
 *{
     box-sizing: border-box;
@@ -18,6 +18,7 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--corescura);
+
     scroll-behavior: smooth;
 }
 
@@ -25,28 +26,33 @@ body{
     background-color: var(--corclara);
     height: 100vh;
     width: 100vw;
+
     position: relative;
 }
 
 header{
     display: flex;
     flex-flow: column nowrap;
-    height: 180px;
+
     background-color: var(--cormedia);
+    height: 180px;
     padding-top: 10px;
 }
 
 header > div#Ilogo{
     flex: 1 1 150px;
+
     background: url(../imagens/logo-200.png) center center no-repeat;
     background-size: contain;
+
     position: relative;
 }
 
 header > div#Ilogo > a > span, article > div#Ivoltar > a > span{
-    position:absolute; 
-    width:100%;
     height:100%;
+    width:100%;
+
+    position:absolute; 
     top:0;
     left: 0;
     z-index: 1;
@@ -55,11 +61,12 @@ header > div#Ilogo > a > span, article > div#Ivoltar > a > span{
 header > h1{
     flex: 0 1 auto;
     align-self: center;
+
     color: var(--corbranco);
     font-size: 1em;
     font-variant: small-caps;
-    text-shadow: 0px 0px 1px var(--corescura);
     margin-bottom: 10px;
+    text-shadow: 0px 0px 1px var(--corescura);
 }
 
 header > nav{
@@ -73,23 +80,24 @@ header > nav > a{
     color: var(--corbranco);
     font-weight: bold;
     margin: 0px 5px;
-    text-decoration: none;
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 header > nav > a:hover{
     background-color: var(--corbranco);
-    color: var(--cordestaque);
     border-radius: 10px 10px 0px 0px;
+    color: var(--cordestaque);
 }
 
 article > div#Ivoltar{
     background: var(--cordestaque) url(../imagens/voltar.png) center center no-repeat;
     background-size: contain;
     border-radius: 100%;
-    margin: -40px 0px 0px 0px;
     height: 40px;
+    margin: -40px 0px 0px 0px;
     width: 40px;
+
     position: fixed;
 }
 
@@ -103,11 +111,7 @@ main{
     padding: 15px;
 }
 
-main > section.none{
-    display: none;
-}
-
-main > section a.none{
+main > section.none, main > section a.none{
     display: none;
 }
 
@@ -116,13 +120,13 @@ main > section > h4{
 }
 
 main > section > ul.marcas{
-    margin-bottom: 15px;
     columns: 2;
+    margin-bottom: 15px;
 }
 
 main > section > ul.marcas > li{
-    list-style-type: circle;
     list-style-position: inside;
+    list-style-type: circle;
 }
 
 main > section > h2{
@@ -148,8 +152,8 @@ main > aside > h3{
     border-radius: 10px 10px 0px 0px;
     color: var(--corbranco);
     margin: -10px -10px 5px -10px;
-    text-align: center;
     padding: 5px;
+    text-align: center;
 }
 
 aside#noback{
@@ -161,20 +165,22 @@ aside#noback{
 div.botao{
     display: flex;
     flex-flow: row nowrap;
+
     width: 80vw;
 }
 
 
 div.botao > a{
     flex: auto;
+
     background-color: var(--corescura);
     border-radius: 5px;
     color: var(--corbranco);
     font-weight: bold;
     margin: 20px 2px -30px 2px;
+    padding: 7px;
     text-align: center;
     text-decoration: none;
-    padding: 7px;
 }
 
 div.botao > a.numeros{
@@ -188,6 +194,7 @@ a#voce{
 footer{
     display: flex;
     flex-flow: column nowrap;
+
     background-color: var(--corescura);
     color: var(--corbranco);
     padding: 10px;
@@ -195,6 +202,7 @@ footer{
 
 footer > address{
     flex: auto;
+
     font-style: normal;
     line-height: 0.9em;
     padding-bottom: 15px;
@@ -202,14 +210,15 @@ footer > address{
 
 footer > nav.sociais{
     flex: auto;
+
     border-top: 1px dotted var(--corbranco);
     padding-top: 5px;
     text-align: center;
 }
 
 footer > nav.sociais > a{
-    text-decoration: none;
     color: var(--corbranco);
     font-weight: bold;
     padding: 0px 10px;
+    text-decoration: none;
 }

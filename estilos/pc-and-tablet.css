@@ -6,6 +6,7 @@
     --corclara: #78BC61;
     --cormedia: #17AF2F;
     --corescura: #14281D;
+    --borda: 1px dotted black;
 }
 
 @media screen and (min-width: 768px){
@@ -93,11 +94,15 @@
     }
 
     table.descricao{
-        align-self: center;
-        width: 45%;
-        border: 1px solid black;
+        display: none;
     }
 
+    div.descricao{
+        display: flex;
+        flex-flow: column nowrap;
+        align-self: center;
+        width: 45%;
+    }
 
     aside#noback{
         display: flex;
