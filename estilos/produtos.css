@@ -81,6 +81,13 @@ section.showproduct{
     padding: 10px;
 }
 
+section.showproduct img{
+    flex: auto;
+
+    padding: 10px 0px 20px 0px;
+    width: 100%;
+}
+
 section.showproduct h3.nome {
     font-size: 1.5em;
     text-align: center;
@@ -108,6 +115,7 @@ section.showproduct > div.column > div.change > input#Ibotao{
     font-weight: bold;
     height: 35px;
 }
+
 
 table.descricao tr{
     display: flex;
