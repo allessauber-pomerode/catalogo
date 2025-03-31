@@ -117,29 +117,34 @@ section.showproduct > div.column > div.change > input#Ibotao{
 }
 
 
+table.descricao{
+    margin: auto;
+    width: 80%;
+}
+
 table.descricao tr{
     display: flex;
     flex-flow: row nowrap;
-
-    margin: auto;
 }
 
 table.descricao th{
-    flex: 1 0 110px;
+    flex: 1 0 auto;
 
     background-color: var(--corclara);
     border: 1px solid var(--corescura);
     border-collapse: collapse;
     padding: 7px;
     vertical-align: middle;
+    width: 30%;
 }
 
 table.descricao td{
-    flex: 2 1 450px;
+    flex: 2 0 auto;
     
     border: 1px solid var(--corescura);
     border-collapse: collapse;
     padding: 7px;
+    width: 70%;
 }
 
 div.descricao{
