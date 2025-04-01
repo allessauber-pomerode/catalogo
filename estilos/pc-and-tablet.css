@@ -49,8 +49,9 @@
     }
 
     main{
-        margin: auto;
         box-shadow: none;
+        margin: auto;
+        min-height: 90vh;
         width: 800px;
     }
 
@@ -129,6 +130,11 @@
         text-align: center;
         width: 50%;
     }
+
+    div.descricao > p {
+        padding: 10px;
+    }
+
 
     aside#noback{
         display: flex;

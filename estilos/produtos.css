@@ -152,10 +152,19 @@ div.descricao{
 }
 
 aside.orcamento{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+
+    background-color: transparent;
+}
+
+aside.orcamento > p{
     background-color: var(--cordestaque);
+    border-radius: 5px;
     color: var(--corbranco);
     font-weight: bold;
     font-variant: small-caps;
-    margin: 20px auto 20px auto;
+    padding: 15px;
     text-align: center;
 }

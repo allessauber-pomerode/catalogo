@@ -108,6 +108,7 @@ article#Idescricao > div#Ivoltar{
 main{
     background-color: var(--corbranco);
     box-shadow: 1px 1px 3px var(--corescura);
+    min-height: 70vh;
     padding: 15px;
 }
 
