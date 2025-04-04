@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
-<!--Individual-->
+<!DOCTYPE html>
+<!--Grupo-->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../../estilos/style.css">
     <link rel="stylesheet" href="../../../estilos/produtos.css">
     <link rel="stylesheet" href="../../../estilos/pc-and-tablet.css">
-    <title>Detergente Deoline Coco</title>
+    <title>Detergente Guimarães Neutro</title>
 </head>
 <body>
     <header>
@@ -24,33 +24,39 @@
     </header>
     <main>
         <article id="Idescricao">
-            <div id="Ivoltar"><a href="../"><span></span></a></div>
+            <div id="Ivoltar"><a href="../" rel="previous"><span></span></a></div>
         </article>
         <section class="showproduct">
             <div class="nowrap">
-                <h3 class="nome">Detergente de Coco</h3>
-                <p>Deoline</p>
-                <img src="../../../imagens/imagens-produtos/placeholder-full.png" alt="Detergente de Coco">
+                <h3 class="nome">Detergente Neutro</h3>
+                <p>Guimarães</p>
+                <img id="Iimagem" src="../../../imagens/imagens-produtos/placeholder-full.png" alt="Detergente Neutro" >
             </div>
-            <table class="descricao">
-                <tr>
-                    <th>Tamanho</th>
-                    <td>500 mL</td>
-                </tr>
-                <tr>
-                    <th>Utilidade</th>
-                    <td>"..."</td>
-                </tr>
-            </table>
-            <div class="descricao">
-                <h5>Tamanho</h5>
-                <p>500 mL</p>
-                <h5>Utilidade</h5>
-                <p>"..."</p>
+            <div class="column">
+                <div class="change">
+                    <input id="Ibotao" type="button" value="2 litros" onclick=" changeImage1()">
+                    <input id="Ibotao" type="button" value="5 litros" onclick="changeImage2()">
+                </div>
+                <table class="descricao">
+                    <tr>
+                        <th>Tamanho</th>
+                        <td>2 litros / 5 litros</td>
+                    </tr>
+                    <tr>
+                        <th>Utilidade</th>
+                        <td>"..."</td>
+                    </tr>
+                </table>
+                <div class="descricao">
+                    <h5>Tamanho</h5>
+                    <p>2 litros / 5 litros</p>
+                    <h5>Utilidade</h5>
+                    <p>"..."</p>
+                </div>
             </div>
         </section>
         <aside class="orcamento">
-            <p>Solicite um orçamento sem compromisso!</p>
+            <p>solicite um orçamento sem compromisso!</p>
         </aside>
     </main>
     <footer>
@@ -64,5 +70,13 @@
             <a href=" https://wa.me/5547997729557" rel="external" target="_blank">Whatsapp</a>
         </nav>
     </footer>
+    <script>
+        function changeImage1() {
+            document.getElementById('Iimagem').src = '../../../imagens/imagens-produtos/placeholder-full.png'
+        }
+        function changeImage2() {
+            document.getElementById('Iimagem').src = '../../../imagens/imagens-produtos/placeholder-full.png'
+        }
+    </script>
 </body>
 </html>
