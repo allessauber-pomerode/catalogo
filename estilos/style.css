@@ -3,8 +3,8 @@
 :root{
     --cordestaque: #D1323E;
     --corbranco: #F9FEFB;
-    --corclara: #78BC61;
-    --cormedia: #17AF2F;
+    --corclara: #64cf72;
+    --cormedia: #0e9c3d;
     --corescura: #14281D;
     --borda: 1px dotted black;
 }
@@ -23,7 +23,7 @@ html{
 }
 
 body{
-    background-color: var(--corclara);
+    background-color: var(--corbranco);
     height: 100vh;
     width: 100vw;
 

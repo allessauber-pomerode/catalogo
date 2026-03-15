@@ -3,15 +3,15 @@
 :root{
     --cordestaque: #D1323E;
     --corbranco: #F9FEFB;
-    --corclara: #78BC61;
-    --cormedia: #17AF2F;
+    --corclara: #64cf72;
+    --cormedia: #0da33f;
     --corescura: #14281D;
     --borda: 1px dotted black;
 }
 
 @media screen and (min-width: 768px){
     body{
-        background-color: var(--corclara);
+        background-color: var(--corbranco);
         width:auto;
     }
 
@@ -40,12 +40,12 @@
     }
 
     header > nav > a{
-        border-radius: 2px;
+        border-radius: 5px;
         order: 2;
     }
 
     header > nav > a:hover{
-        border-radius: 2px;
+        border-radius: 5px;
     }
 
     main{
